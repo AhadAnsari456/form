@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(190deg, rgb(162, 237, 247) ,rgb(3, 75, 108) ,rgb(4, 127, 221));
+display: flex;
+flex-direction: column;
+width: 80%;
+
+
+}
+main{
+    width: 60%;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+   
+
+}
+header{
+    text-align: left;
+    color: whitesmoke;
+    font-size:larger;
+    height: 20px;
+
+}
+
+#name{
+    width: 40%;
+   
+}
+#last{
+    width: 39%;
+}
+#email{
+    width: 82%;
+}
+#number{
+    width: 26%;
+}
+#option{
+    width: 56%;
+}
+#message{
+    width: 82%;
+}
+.a1{
+    color: white;
+    width: 40%;
+}
+button{
+    background-color: rgb(28, 161, 161);
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 4px;
+    width:100px;
+    padding: 10px 5px;
+}
+input{
+    margin-bottom: 10px;
+    
+}
+textarea{
+    margin-top: 10px;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6 {
+    margin-bottom:15px;
+    margin-left: 20px;
+}
+button:hover{
+    color: aqua;
+    cursor: pointer;
+
+}
+footer{
+    padding-top: 10px;
+    color: rgb(196, 188, 228);
+}
